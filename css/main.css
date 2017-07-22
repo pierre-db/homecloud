@@ -1,0 +1,53 @@
+/* Copyright 2016 Pierre DAL BIANCO | http://www.gnu.org/licenses/gpl.txt */
+
+body {
+margin:0;
+margin-right:7px;
+font-family:"Arial", sans-serif;
+font-size:12px;
+}
+
+div#scripts{
+height:36px;
+width:100%;
+padding:2px;
+padding-left:5px;
+background-color:#CCCCCC;
+margin:0px;
+background-image: -webkit-linear-gradient(top, #DDDDDD, #CCCCCC);
+background-image: -moz-linear-gradient(top, #DDDDDD, #CCCCCC);
+background-image: -ms-linear-gradient(top, #DDDDDD, #CCCCCC);
+background-image: -o-linear-gradient(top, #DDDDDD, #CCCCCC);
+background-image: linear-gradient(top, #DDDDDD, #CCCCCC);
+}
+
+td.title {
+font-size:large ;
+width:100%;
+}
+
+div.credits{
+width:100%;
+text-align:center;
+}
+
+td.info {
+text-align:right ;
+}
+
+span#apps{
+margin-left:10px;
+display:inline-block;
+border-left:1px solid #AAA;
+}
+
+a{
+text-decoration:none;
+transition-property: color;
+color:#5F5F5F;
+}
+
+a:hover{
+color:#C0C0C0;
+transition-duration: 0.5s;
+}
